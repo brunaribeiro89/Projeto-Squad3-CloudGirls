@@ -8,6 +8,13 @@ p{
 	line-height: 22px;
 	padding: 0 10px;
 }
+hr {
+	border: none;
+	background-color: #36C4D0;
+	height: 2px;
+	width: 140px;
+	margin: 10px auto;
+}
 /* 2. Menu*/
 /**********************************/
 .main-header{
@@ -50,6 +57,42 @@ p{
 text-decoration: underline;
 transform:scale(1.05);
 }
+/* 4. Quem somos
+/**********************************/
+.somos{
+	max-width: 960px;
+	margin: 0 auto;
+  padding: 32px 0;
+  box-sizing: border-box;
+}
+.section__titulo{
+	text-align: center;
+	font-size: 48px;
+	margin: 10px 0;
+  clear: left;
+}
+.somos-container__img{
+  width:120px;
+  float:left;
+  margin: 0 30px 50px 0;
+}
+.somos-container__texto{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* 9. Footer
 /**********************************/
 .rodape {
