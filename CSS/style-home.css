@@ -1,0 +1,65 @@
+/* 1. Estilos gerais*/
+/**********************************/
+body{
+	background-color: #E3EEFF;
+  font-family: "Fira Code",Arial, Helvetica, sans-serif;
+}
+p{
+	line-height: 22px;
+	padding: 0 10px;
+}
+/* 2. Menu*/
+/**********************************/
+.main-header{
+    padding: 10px 20px;
+    background-color: #F2E4F9;
+    border-bottom: 3px solid #36C4D0;
+ 
+}
+.menu{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 960px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  
+}
+.menu__logo {
+	margin: 10px;
+}
+.nav__list{
+  display: flex;
+	flex-wrap: wrap;
+  box-sizing: border-box;
+}
+.nav__list li {
+  margin-left: 15px;
+}
+.nav__link {
+  display:block;
+  padding: 10px;
+  text-transform: uppercase;
+  color: #043D5D;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+}
+.nav__link:hover{
+  color :#000;
+text-decoration: underline;
+transform:scale(1.05);
+}
+/* 9. Footer
+/**********************************/
+.rodape {
+  text-align: center;
+  background-image: url("../img/cartoon_dessert.jpg");
+  padding: 40px 0;
+}
+.rodape-descricao{
+  font-size: 15px;
+  font-weight: bold;
+  color:#000;
+  margin-top:20px;
+}
