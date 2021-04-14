@@ -35,6 +35,9 @@ hr {
 .menu__logo {
 	margin: 10px;
 }
+.menu__logo img {
+  width:200px;
+}
 .nav__list{
   display: flex;
 	flex-wrap: wrap;
@@ -76,9 +79,7 @@ transform:scale(1.05);
   float:left;
   margin: 0 30px 50px 0;
 }
-.somos-container__texto{
 
-}
 
 
 
