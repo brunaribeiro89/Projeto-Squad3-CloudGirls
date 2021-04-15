@@ -8,3 +8,66 @@ p{
 	line-height: 22px;
 	padding: 0 10px;
 }
+
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+
+form{
+    margin: 40px;
+}
+
+
+form label, form legend {
+    display:block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao{
+    display: block;
+    margin: 0 0 20px;
+    width: 50%;
+}
+
+
+.checkbox{
+    margin: 20px 0;
+}
+
+
+fieldset{
+    border:none;
+}
+
+.dados{
+	font-weight: bold;
+	line-height: 1.5;
+}
+
+legend{
+	font-weight: bold;
+	line-height: 1.5;
+}
+
+select{
+	width: 20%;
+	margin: 10px; 
+}
+
+.enviar{
+    width: 30%;
+    background: lightgray;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius:2px;
+    margin-left: 30%;
+}
+.enviar:hover{
+    background: gray;
+    cursor:pointer;
+    transition: 1s;
+    transform:scale(1.1)
+}
