@@ -103,7 +103,9 @@ transform:scale(1.05);
 .rodape {
   text-align: center;
   background-image: url("../img/cartoon_dessert.jpg");
-  padding: 40px 0;
+  padding: 20px 0;
+
+  
 }
 .rodape-descricao{
   font-size: 15px;
@@ -111,3 +113,17 @@ transform:scale(1.05);
   color:#000;
   margin-top:20px;
 }
+.rodape .social-field{
+  display:inline-block;
+  width: 30px;
+  padding: 20px;
+  font-size: 30px;
+  cursor:pointer;
+  margin: 0 auto;
+
+}
+.rodape .social-field a {
+  text-decoration: none;
+  color:#360528;
+}
+
