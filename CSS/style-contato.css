@@ -53,6 +53,7 @@ legend{
 }
 
 select{
+    display: block;
 	width: 20%;
 	margin: 10px; 
 }
