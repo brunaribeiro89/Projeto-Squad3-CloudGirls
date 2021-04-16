@@ -64,7 +64,7 @@ select{
     font-size: 18px;
     font-weight: bold;
     border-radius:2px;
-    margin-left: 30%;
+    
 }
 .enviar:hover{
     background: gray;
