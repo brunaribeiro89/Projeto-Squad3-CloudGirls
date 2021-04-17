@@ -90,6 +90,11 @@ transform:scale(1.05);
 .somos-container__img:hover{
   opacity: 0.3;
 }
+#brigadeiro {
+  width:150px;
+  height:150px;
+  
+}
 /* 4. Carrosel
 /**********************************/
 #items-wrapper {
