@@ -15,6 +15,9 @@ hr {
 	width: 140px;
 	margin: 10px auto;
 }
+main{
+  margin-bottom: 100px;
+}
 /* 2. Menu*/
 /**********************************/
 .main-header{
@@ -69,8 +72,10 @@ transform:scale(1.05);
   box-sizing: border-box;
 }
 .section__titulo{
+  font-family:"Pompiere", sans-serif ;
 	text-align: center;
-	font-size: 48px;
+	font-size: 40px;
+  font-weight: bold;
 	margin: 10px 0;
   clear: left;
 }
@@ -85,9 +90,40 @@ transform:scale(1.05);
 .somos-container__img:hover{
   opacity: 0.3;
 }
-
-
-
+#brigadeiro {
+  width:150px;
+  height:150px;
+  
+}
+/* 4. Carrosel
+/**********************************/
+#items-wrapper {
+width: 100vw;
+margin-bottom: 100px;
+}
+#items{
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
+}
+#items:hover{
+  opacity: 0.8;
+}
+.item img{
+ width:100%;
+ height:100%;
+ object-fit:cover;
+ transition: 500ms;
+}
+.item {
+  flex: none;
+  width:20%;
+  height:400px;
+  scroll-snap-align: start;
+  pointer-events: none;
+}
 
 
 
@@ -103,7 +139,9 @@ transform:scale(1.05);
 .rodape {
   text-align: center;
   background-image: url("../img/cartoon_dessert.jpg");
-  padding: 40px 0;
+  padding: 20px 0;
+
+  
 }
 .rodape-descricao{
   font-size: 15px;
@@ -111,3 +149,17 @@ transform:scale(1.05);
   color:#000;
   margin-top:20px;
 }
+.rodape .social-field{
+  display:inline-block;
+  width: 30px;
+  padding: 20px;
+  font-size: 30px;
+  cursor:pointer;
+  margin: 0 auto;
+
+}
+.rodape .social-field a {
+  text-decoration: none;
+  color:#360528;
+}
+
