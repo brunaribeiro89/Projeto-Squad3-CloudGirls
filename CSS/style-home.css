@@ -7,6 +7,7 @@ body{
 p{
 	line-height: 22px;
 	padding: 0 10px;
+  font-size: 16px;
 }
 hr {
 	border: none;
@@ -100,6 +101,7 @@ transform:scale(1.05);
 #items-wrapper {
 width: 100vw;
 margin-bottom: 100px;
+
 }
 #items{
   display: flex;
