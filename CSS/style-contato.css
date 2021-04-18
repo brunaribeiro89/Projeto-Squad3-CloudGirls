@@ -93,3 +93,11 @@ select{
     margin-left: 20%;
 }
 
+#contatoDireto{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 3;
+    font-size: 20px;
+    line-height: 1.5;
+
+}
