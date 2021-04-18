@@ -45,6 +45,7 @@ fieldset{
 .dados{
 	font-weight: bold;
 	line-height: 1.5;
+    
 }
 
 legend{
@@ -74,7 +75,7 @@ select{
 }
 
 .visita{
-    margin-top: 100px;
+    margin-top: 30px;
     text-align: center;
     font-weight: bold;
     line-height: 2.0;
@@ -85,12 +86,15 @@ select{
 
 .localizacao{
     margin-top: 20px;
+    margin-bottom: 10px;
     text-align: center;
 }
 
 .maps{
     position: relative;
     margin-left: 20%;
+    border-color: black;
+    border-radius: 20px;
 }
 
 #contatoDireto{
