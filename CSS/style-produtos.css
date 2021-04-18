@@ -8,3 +8,45 @@ p{
 	line-height: 22px;
 	padding: 0 10px;
 }
+
+.produtos{
+	width: 940px;
+	margin: 0 auto;
+	padding: 70px 0;
+}
+
+.produtos li{
+	display: inline-block;
+	text-align: center;
+	width: 45%;
+	vertical-align: top;
+	margin: 0 2%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border-color: powderblue;
+	border-width: 10px;
+	border-style:ridge;
+	border-radius: 5px;
+}
+
+.produtos li:hover{
+	border-color: #7eb5d4;
+}
+
+.produtos li:hover h2 {
+	font-size: 30px;
+	color:powderblue;
+}
+
+
+
+.produtos h2{
+	font-size: 25px;
+	font-weight: unset;
+	margin-bottom: 10px;
+}
+
+li p{
+	font-weight: lighter;
+	margin: 10px 0 0;
+}
