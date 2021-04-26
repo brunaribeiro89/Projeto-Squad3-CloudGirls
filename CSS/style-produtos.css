@@ -8,6 +8,8 @@ p{
 	line-height: 22px;
 	padding: 0 10px;
 }
+/* 2. Produtos*/
+/**********************************/
 
 .produtos{
 	width: 940px;
@@ -27,29 +29,26 @@ p{
 	border-width: 10px;
 	border-style:ridge;
 	border-radius: 5px;
+	
 }
 
 .produtos li:hover{
 	border-color: #7eb5d4;
 }
-
 .produtos li:hover h2 {
 	font-size: 30px;
 	color:powderblue;
 }
-
-
-
 .produtos h2{
 	font-size: 25px;
 	font-weight: unset;
 	margin-bottom: 10px;
 }
-
 li p{
 	font-weight: lighter;
 	margin: 10px 0 0;
 }
 #contatoDireto{
-		margin-top: 100px;
+	margin-top: 100px;
+	text-align: center;
 }
